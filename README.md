@@ -12,7 +12,7 @@ Office hour: Mondays 11am, Huxley 6M40
   A. [Introduction to Julia](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/notes/A.Julia.ipynb): we introduce  the basic features of the Julia language. \
   B. [Asymptotics and Computational Cost](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/notes/B.Asymptotics.ipynb): we review Big-O, little-o and asymptotic to notation,
 and their usage in describing computational cost. \
-  C. [Adjoints and Normal Matrices](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/notes/C.Adjoint.ipynb): we review complex inner-products, adjoints, normal matrices, and the spectral theorem.
+  C. [Adjoints and Normal Matrices](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/notes/C.Adjoints.ipynb): we review complex inner-products, adjoints, normal matrices, and the spectral theorem.
 
 **I: Computing with numbers**
 
@@ -26,7 +26,13 @@ facilitate fast and accurate computation of derivatives.
 **II: Computing with matrices**
 
 1. [Structured Matrices](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/notes/II.1.StructuredMatrices.ipynb): we discuss types of structured matrices (dense, triangular, and banded).
-2. [Orthogonal Matrices](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/notes/II.2.OrthogonalMatrices.ipynb): we discuss types of orthogonal matrices (permutations, rotations, and reflections).
+2. [Orthogonal Matrices](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/notes/II.2.OrthogonalMatrices.ipynb): we discuss types of orthogonal 
+and unitary matrices (permutations, rotations, and reflections).
+3. [Least Squares and QR](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/notes/II.3.QR.ipynb): we discuss least squares and the computation of the QR factorisation.
+4. [PLU and Cholesky](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/notes/II.3.QR.ipynb): we discuss 
+the PLU and Cholesky factorisations, as well as symmetric positive definite matrices.
+
+
 
 **III: Computing with functions**
 
@@ -34,7 +40,7 @@ facilitate fast and accurate computation of derivatives.
 
 1. [Practice computer-based exam](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/exams/practice.ipynb)
 2. [2021–22 Computer-based exam](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/exams/computerexam2122.ipynb)
-3. Computer-based exam: TBA
+3. Computer-based exam: 12:00 17 March 2023 (1 hour in-person exam with 15 minutes to read/download before and 15 minutes to upload after)
 3. [Practice final exam](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/exams/practicefinal.pdf)
 3. Final exam (pen-and-paper): TBA
 
@@ -42,7 +48,10 @@ facilitate fast and accurate computation of derivatives.
 
 1. [Integers and Reals](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/sheets/sheet1.ipynb) ([Solutions](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/sheets/sheet1s.ipynb))
 2. [Bounding Errors](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/sheets/sheet2.ipynb) ([Solutions](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/sheets/sheet2s.ipynb))
-3. [Divided Differences and Dual Numbers](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/sheets/sheet3.ipynb)
+3. [Divided Differences and Dual Numbers](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/sheets/sheet3.ipynb)  ([Solutions](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/labs/sheet3s.ipynb))
+4. [Structured and Orthogonal Matrices](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/sheets/sheet4.ipynb)
+5. [QR Factorisations](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/sheets/sheet5.ipynb)
+
 
 
 
@@ -50,8 +59,9 @@ facilitate fast and accurate computation of derivatives.
 
 1. [Introduction to Julia](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/labs/lab1.ipynb) ([Raw](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/src/labs/lab1.jl)) ([Solutions](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/labs/lab1s.ipynb))
 2. [Interval Arithmetic](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/labs/lab2.ipynb) ([Raw](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/src/labs/lab2.jl)) ([Solutions](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/labs/lab2s.ipynb))
-2. [Divided Differences and Dual Numbers](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/labs/lab3.ipynb) ([Raw](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/src/labs/lab3.jl))
+2. [Divided Differences and Dual Numbers](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/labs/lab3.ipynb) ([Raw](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/src/labs/lab3.jl)) ([Solutions](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/labs/lab3s.ipynb))
 4. [Structured Matrices](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/labs/lab4.ipynb) ([Raw](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/src/labs/lab4.jl))
+5. [Orthogonal Matrices](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/labs/lab4.ipynb) ([Raw](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/src/labs/lab5.jl))
 
 
 ## Lecture material
@@ -60,6 +70,12 @@ facilitate fast and accurate computation of derivatives.
 2. Floating Point: [Notebook](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/lectures/Lecture2.ipynb)
 3. Arithmetic: [Notebook](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/lectures/Lecture3.ipynb)
 4. Bounding Errors: [Notebook](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/lectures/Lecture4.ipynb)
+5. Divided Differences: [Notebook](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/lectures/Lecture5.ipynb)
+6. Dual Numbers: [Notebook](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/lectures/Lecture6.ipynb)
+7. Structured Matrices: [Notebook](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/lectures/Lecture7.ipynb)
+8. Orthogonal Matrices: [Notebook](https://github.com/Imperial-MATH50003/MATH50003NumericalAnalysis/blob/main/lectures/Lecture8.ipynb)
+
+
 
 ## Reading List
 
