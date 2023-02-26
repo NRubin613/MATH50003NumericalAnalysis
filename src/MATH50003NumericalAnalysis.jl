@@ -27,9 +27,12 @@ notebook("src/notes/II.1.StructuredMatrices.jmd"; nkwds...)
 notebook("src/notes/II.2.OrthogonalMatrices.jmd"; nkwds...)
 notebook("src/notes/II.3.QR.jmd"; nkwds...)
 notebook("src/notes/II.4.LU.jmd"; nkwds...)
+notebook("src/notes/II.5.Norms.jmd"; nkwds...)
+notebook("src/notes/II.6.SVD.jmd"; nkwds...)
+notebook("src/notes/II.7.ConditionNumbers.jmd"; nkwds...)
 
-# /usr/local/bin/jupyter nbconvert --allow-chromium-download --to webpdf *.ipynb
-
+# /usr/local/bin/jupyter nbconvert  --ExecutePreprocessor.timeout -1 --allow-chromium-download --to webpdf *.ipynb
+# pdfunite pdf/*.pdf Notes.pdf
 #####
 # sheets
 #####
@@ -81,6 +84,10 @@ Literate.notebook("src/labs/lab5.jl", "labs/")
 Literate.notebook("src/labs/lab6s.jl", "labs/")
 write("src/labs/lab6.jl", replace(replace(read("src/labs/lab6s.jl", String), r"## SOLUTION(.*?)## END"s => ""), r"@test" => "@test_broken"))
 Literate.notebook("src/labs/lab6.jl", "labs/")
+
+Literate.notebook("src/labs/lab7s.jl", "labs/")
+write("src/labs/lab7.jl", replace(replace(read("src/labs/lab7s.jl", String), r"## SOLUTION(.*?)## END"s => ""), r"@test" => "@test_broken"))
+Literate.notebook("src/labs/lab7.jl", "labs/")
 
 
 ####
