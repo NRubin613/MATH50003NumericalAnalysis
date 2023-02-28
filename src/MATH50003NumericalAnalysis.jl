@@ -54,6 +54,9 @@ notebook("src/sheets/sheet5s.jmd"; pkwds...)
 write("src/sheets/sheet6.jmd", replace(read("src/sheets/sheet6s.jmd", String), r"\*\*SOLUTION\*\*(.*?)\*\*END\*\*"s => ""))
 notebook("src/sheets/sheet6.jmd"; pkwds...)
 notebook("src/sheets/sheet6s.jmd"; pkwds...)
+write("src/sheets/sheet7.jmd", replace(read("src/sheets/sheet7s.jmd", String), r"\*\*SOLUTION\*\*(.*?)\*\*END\*\*"s => ""))
+notebook("src/sheets/sheet7.jmd"; pkwds...)
+notebook("src/sheets/sheet7s.jmd"; pkwds...)
 
 
 #####
@@ -85,9 +88,9 @@ Literate.notebook("src/labs/lab6s.jl", "labs/")
 write("src/labs/lab6.jl", replace(replace(read("src/labs/lab6s.jl", String), r"## SOLUTION(.*?)## END"s => ""), r"@test" => "@test_broken"))
 Literate.notebook("src/labs/lab6.jl", "labs/")
 
-Literate.notebook("src/labs/lab7s.jl", "labs/")
 write("src/labs/lab7.jl", replace(replace(read("src/labs/lab7s.jl", String), r"## SOLUTION(.*?)## END"s => ""), r"@test" => "@test_broken"))
 Literate.notebook("src/labs/lab7.jl", "labs/")
+Literate.notebook("src/labs/lab7s.jl", "labs/")
 
 
 ####
